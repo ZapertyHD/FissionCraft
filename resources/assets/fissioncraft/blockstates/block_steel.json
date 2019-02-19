@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "fissioncraft:block_steel" }
+    }
+}

@@ -1,0 +1,16 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": 
+    [
+
+    {
+      "item": "fissioncraft:ingot_steel"
+    }
+    ],
+
+    "result": 
+    {
+        "item": "fissioncraft:nugget_steel",
+        "count": 9
+    }
+}

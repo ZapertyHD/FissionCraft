@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " S ",
+        " S ",
+        " L "
+    ],
+    
+    "key":
+    {
+        "S":
+        {
+            "item": "fissioncraft:ingot_steel"
+        },
+        
+        "L":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "fissioncraft:steel_sword",
+        "count": 1
+    }
+}

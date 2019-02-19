@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "SSS",
+        " L ",
+        " L "
+    ],
+    
+    "key":
+    {
+        "S":
+        {
+            "item": "fissioncraft:ingot_steel"
+        },
+        
+        "L":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "fissioncraft:steel_pickaxe",
+        "count": 1
+    }
+}

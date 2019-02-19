@@ -1,0 +1,12 @@
+{
+   "parent": "block/orientable",
+   "textures": {
+       "particle": "fissioncraft:blocks/alloy_fabricator_front_off",
+       "up": "fissioncraft:blocks/alloy_fabricator_top",
+       "down": "fissioncraft:blocks/alloy_fabricator_top",
+       "north": "fissioncraft:blocks/alloy_fabricator_front_off",
+       "east": "fissioncraft:blocks/alloy_fabricator_side1",
+       "south": "fissioncraft:blocks/alloy_fabricator_side2",
+       "west": "fissioncraft:blocks/alloy_fabricator_side1"
+   }
+}

@@ -1,0 +1,31 @@
+//CREATIVETAB
+itemGroup.fissioncraft=FissionCraft
+//ITEMS
+item.ingot_steel.name=Steel Ingot
+item.dust_steel.name=Pulverized Steel
+item.dust_coal.name=Pulverized Coal
+item.nugget_steel.name=Steel Nugget
+item.coal_sheet.name=Carbon Sheet
+item.coal_press.name=Carbon Fabric
+//CONSUMABLES
+item.calory_mine.name=Calory Mines
+//TOOLS
+item.steel_sword.name=Steel Sword
+item.steel_axe.name=Steel Axe
+item.steel_pickaxe.name=Steel Pickaxe
+item.steel_hoe.name=Steel Hoe
+item.steel_shovel.name=Steel Shovel
+//ARMOR
+item.steel_helmet.name=Steel Helmet
+item.steel_chestplate.name=Steel Chestplate
+item.steel_leggings.name=Steel Leggings
+item.steel_boots.name=Steel Boots
+item.carbon_chestplate.name=Exo™-Spine
+item.power_chestplate.name=B45-Powerarmor Torso
+item.power_helmet.name=B45-Powerarmor Helmet
+item.power_leggings.name=B45-Powerarmor Legs
+//BLOCKS
+tile.block_steel.name=Steel Block
+tile.alloy_fabricator.name=Alloy Fabricator
+//CONTAINER
+container.alloy_fabricator=Alloy Fabricator

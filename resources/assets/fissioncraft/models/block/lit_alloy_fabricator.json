@@ -1,0 +1,235 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "particle": "fissioncraft:blocks/alloy_fabricator_front_off",
+        "alloy_fabricator_front_on": "fissioncraft:blocks/alloy_fabricator_front_on",
+        "alloy_fabricator_side1": "fissioncraft:blocks/alloy_fabricator_side1",
+        "alloy_fabricator_side2": "fissioncraft:blocks/alloy_fabricator_side2",
+        "alloy_fabricator_top": "fissioncraft:blocks/alloy_fabricator_top"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 225, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.5, 0.5, 0.5 ]
+        },
+        "head": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1.5, 1.5, 1.5 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 45, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 45, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Edge0",
+            "from": [ 0, 0, 0 ], 
+            "to": [ 16, 1, 1 ], 
+            "faces": {
+                "north": { "texture": "#alloy_fabricator_front_on", "uv": [ 0, 15, 16, 16 ] },
+                "south": { "texture": "#alloy_fabricator_side2", "uv": [ 0, 0, 16, 1 ] },
+                "up": { "texture": "#alloy_fabricator_top", "uv": [ 0, 0, 16, 1 ] },
+                "down": { "texture": "#alloy_fabricator_top", "uv": [ 0, 0, 16, 1 ] }
+            }
+        },
+        {
+            "name": "Edge1",
+            "from": [ 0, 1, 0 ], 
+            "to": [ 1, 16, 1 ], 
+            "faces": {
+                "north": { "texture": "#alloy_fabricator_front_on", "uv": [ 0, 0, 1, 15 ] },
+                "east": { "texture": "#alloy_fabricator_side1", "uv": [ 0, 0, 1, 15 ] },
+                "south": { "texture": "#alloy_fabricator_side2", "uv": [ 0, 0, 1, 15 ] },
+                "west": { "texture": "#alloy_fabricator_side1", "uv": [ 0, 0, 1, 15 ] }
+            }
+        },
+        {
+            "name": "Edge2",
+            "from": [ 0, 15, 0 ], 
+            "to": [ 16, 16, 1 ], 
+            "faces": {
+                "north": { "texture": "#alloy_fabricator_front_on", "uv": [ 0, 0, 16, 1 ] },
+                "south": { "texture": "#alloy_fabricator_side2", "uv": [ 0, 0, 16, 1 ] },
+                "up": { "texture": "#alloy_fabricator_top", "uv": [ 0, 0, 16, 1 ] },
+                "down": { "texture": "#alloy_fabricator_top", "uv": [ 0, 0, 16, 1 ] }
+            }
+        },
+        {
+            "name": "Edge3",
+            "from": [ 15, 0, 0 ], 
+            "to": [ 16, 16, 1 ], 
+            "faces": {
+                "north": { "texture": "#alloy_fabricator_front_on", "uv": [ 0, 0, 1, 16 ] },
+                "east": { "texture": "#alloy_fabricator_side1", "uv": [ 0, 0, 1, 16 ] },
+                "south": { "texture": "#alloy_fabricator_side2", "uv": [ 0, 0, 1, 16 ] },
+                "west": { "texture": "#alloy_fabricator_side1", "uv": [ 0, 0, 1, 16 ] }
+            }
+        },
+        {
+            "name": "Edge4",
+            "from": [ 0, 0, 0 ], 
+            "to": [ 1, 1, 16 ], 
+            "faces": {
+                "east": { "texture": "#alloy_fabricator_side1", "uv": [ 0, 0, 16, 1 ] },
+                "west": { "texture": "#alloy_fabricator_side1", "uv": [ 0, 0, 16, 1 ] },
+                "up": { "texture": "#alloy_fabricator_top", "uv": [ 0, 0, 1, 16 ] },
+                "down": { "texture": "#alloy_fabricator_top", "uv": [ 0, 0, 1, 16 ] }
+            }
+        },
+        {
+            "name": "Edge5",
+            "from": [ 0, 0, 15 ], 
+            "to": [ 1, 16, 16 ], 
+            "faces": {
+                "north": { "texture": "#alloy_fabricator_front_on", "uv": [ 0, 0, 1, 16 ] },
+                "east": { "texture": "#alloy_fabricator_side1", "uv": [ 0, 0, 1, 16 ] },
+                "south": { "texture": "#alloy_fabricator_side2", "uv": [ 0, 0, 1, 16 ] },
+                "west": { "texture": "#alloy_fabricator_side1", "uv": [ 0, 0, 1, 16 ] }
+            }
+        },
+        {
+            "name": "Edge6",
+            "from": [ 0, 15, 0 ], 
+            "to": [ 1, 16, 16 ], 
+            "faces": {
+                "east": { "texture": "#alloy_fabricator_side1", "uv": [ 0, 0, 16, 1 ] },
+                "west": { "texture": "#alloy_fabricator_side1", "uv": [ 0, 0, 16, 1 ] },
+                "up": { "texture": "#alloy_fabricator_top", "uv": [ 0, 0, 1, 16 ] },
+                "down": { "texture": "#alloy_fabricator_top", "uv": [ 0, 0, 1, 16 ] }
+            }
+        },
+        {
+            "name": "Edge7",
+            "from": [ 0, 0, 15 ], 
+            "to": [ 16, 1, 16 ], 
+            "faces": {
+                "north": { "texture": "#alloy_fabricator_front_on", "uv": [ 0, 0, 16, 1 ] },
+                "south": { "texture": "#alloy_fabricator_side2", "uv": [ 0, 0, 16, 1 ] },
+                "up": { "texture": "#alloy_fabricator_top", "uv": [ 0, 0, 16, 1 ] },
+                "down": { "texture": "#alloy_fabricator_top", "uv": [ 0, 0, 16, 1 ] }
+            }
+        },
+        {
+            "name": "Edge8",
+            "from": [ 15, 0, 0 ], 
+            "to": [ 16, 1, 16 ], 
+            "faces": {
+                "east": { "texture": "#alloy_fabricator_side1", "uv": [ 0, 0, 16, 1 ] },
+                "west": { "texture": "#alloy_fabricator_side1", "uv": [ 0, 0, 16, 1 ] },
+                "up": { "texture": "#alloy_fabricator_top", "uv": [ 0, 0, 1, 16 ] },
+                "down": { "texture": "#alloy_fabricator_top", "uv": [ 0, 0, 1, 16 ] }
+            }
+        },
+        {
+            "name": "Edge9",
+            "from": [ 0, 15, 15 ], 
+            "to": [ 16, 16, 16 ], 
+            "faces": {
+                "north": { "texture": "#alloy_fabricator_front_on", "uv": [ 0, 0, 16, 1 ] },
+                "south": { "texture": "#alloy_fabricator_side2", "uv": [ 0, 0, 16, 1 ] },
+                "up": { "texture": "#alloy_fabricator_top", "uv": [ 0, 0, 16, 1 ] },
+                "down": { "texture": "#alloy_fabricator_top", "uv": [ 0, 0, 16, 1 ] }
+            }
+        },
+        {
+            "name": "EdgeA",
+            "from": [ 15, 15, 0 ], 
+            "to": [ 16, 16, 16 ], 
+            "faces": {
+                "east": { "texture": "#alloy_fabricator_side1", "uv": [ 0, 0, 16, 1 ] },
+                "west": { "texture": "#alloy_fabricator_side1", "uv": [ 0, 0, 16, 1 ] },
+                "up": { "texture": "#alloy_fabricator_top", "uv": [ 0, 0, 1, 16 ] },
+                "down": { "texture": "#alloy_fabricator_top", "uv": [ 0, 0, 1, 16 ] }
+            }
+        },
+        {
+            "name": "EdgeB",
+            "from": [ 15, 0, 15 ], 
+            "to": [ 16, 16, 16 ], 
+            "faces": {
+                "north": { "texture": "#alloy_fabricator_front_on", "uv": [ 0, 0, 1, 16 ] },
+                "east": { "texture": "#alloy_fabricator_side1", "uv": [ 0, 0, 1, 16 ] },
+                "south": { "texture": "#alloy_fabricator_side2", "uv": [ 0, 0, 1, 16 ] },
+                "west": { "texture": "#alloy_fabricator_side1", "uv": [ 0, 0, 1, 16 ] }
+            }
+        },
+        {
+            "name": "Center",
+            "from": [ 1, 1, 5 ], 
+            "to": [ 15, 15, 15 ], 
+            "faces": {
+                "north": { "texture": "#alloy_fabricator_front_on", "uv": [ 1, 1, 15, 15 ] },
+                "east": { "texture": "#alloy_fabricator_side1", "uv": [ 1, 1, 11, 15 ] },
+                "south": { "texture": "#alloy_fabricator_side2", "uv": [ 1, 1, 15, 15 ] },
+                "west": { "texture": "#alloy_fabricator_side1", "uv": [ 1, 1, 11, 15 ] },
+                "up": { "texture": "#alloy_fabricator_top", "uv": [ 1, 1, 15, 11 ] },
+                "down": { "texture": "#alloy_fabricator_top", "uv": [ 1, 1, 15, 11 ] }
+            }
+        },
+        {
+            "name": "CenterA",
+            "from": [ 1, 1, 1 ], 
+            "to": [ 4, 15, 5 ], 
+            "faces": {
+                "north": { "texture": "#alloy_fabricator_front_on", "uv": [ 12, 1, 15, 15 ] },
+                "east": { "texture": "#alloy_fabricator_side1", "uv": [ 1, 1, 5, 15 ] },
+                "west": { "texture": "#alloy_fabricator_side1", "uv": [ 1, 1, 5, 15 ] },
+                "up": { "texture": "#alloy_fabricator_top", "uv": [ 1, 1, 4, 5 ] },
+                "down": { "texture": "#alloy_fabricator_top", "uv": [ 1, 1, 4, 5 ] }
+            }
+        },
+        {
+            "name": "CemterB",
+            "from": [ 4, 1, 1 ], 
+            "to": [ 12, 2, 6 ], 
+            "faces": {
+                "north": { "texture": "#alloy_fabricator_front_on", "uv": [ 4, 14, 12, 15 ] },
+                "east": { "texture": "#alloy_fabricator_side1", "uv": [ 5, 0, 10, 1 ] },
+                "west": { "texture": "#alloy_fabricator_side1", "uv": [ 0, 0, 5, 1 ] },
+                "up": { "texture": "#alloy_fabricator_top", "uv": [ 1, 1, 9, 6 ] },
+                "down": { "texture": "#alloy_fabricator_top", "uv": [ 1, 1, 9, 6 ] }
+            }
+        },
+        {
+            "name": "CenterC",
+            "from": [ 12, 1, 1 ], 
+            "to": [ 15, 15, 5 ], 
+            "faces": {
+                "north": { "texture": "#alloy_fabricator_front_on", "uv": [ 1, 1, 4, 15 ] },
+                "east": { "texture": "#alloy_fabricator_side1", "uv": [ 1, 1, 5, 15 ] },
+                "west": { "texture": "#alloy_fabricator_side1", "uv": [ 1, 1, 5, 15 ] },
+                "up": { "texture": "#alloy_fabricator_top", "uv": [ 1, 1, 4, 5 ] },
+                "down": { "texture": "#alloy_fabricator_top", "uv": [ 1, 1, 4, 5 ] }
+            }
+        },
+        {
+            "name": "CenterD",
+            "from": [ 4, 7, 1 ], 
+            "to": [ 12, 15, 5 ], 
+            "faces": {
+                "north": { "texture": "#alloy_fabricator_front_on", "uv": [ 4, 1, 12, 9 ] },
+                "up": { "texture": "#alloy_fabricator_top", "uv": [ 3, 2, 11, 6 ] },
+                "down": { "texture": "#alloy_fabricator_top", "uv": [ 3, 2, 11, 6 ] }
+            }
+        }
+    ]
+}

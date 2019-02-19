@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "SSS",
+        "SSS",
+        "SSS"
+    ],
+    
+    "key":
+    {
+        "S":
+        {
+            "item": "fissioncraft:coal_sheet"
+        }
+    },
+    
+    "result":
+    {
+        "item": "fissioncraft:coal_press",
+        "count": 1
+    }
+}
